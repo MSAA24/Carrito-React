@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Barlow-thick';
+    src: url('../font/BarlowCondensed-Black.ttf');
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Barlow-thin';
+    src: url('../font/Barlow-LightItalic.ttf');
+    font-style: normal;
+  }
+
+ul{
+    font-family: 'Barlow-thick';
+    font-size: 20px;
+    list-style-type: none;   
+}
+.header ul {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1%;
+}
+
+.header p{
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  color: rgba(248, 251, 254);
+}
+

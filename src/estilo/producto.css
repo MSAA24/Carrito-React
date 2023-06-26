@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: 'Barlow-thin';
+    src: url('../font/Barlow-LightItalic.ttf');
+    font-style: normal;
+}
+/* Estilos de cada elemento del grid */
+.producto {
+    width: 100%; 
+    height: auto; 
+    /* border: 1px solid #ccc;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .producto-dato{
+    margin-top: 15px;
+    color: rgba(172, 88, 245);
+  }
+
+  .producto img{
+    width: auto;
+    height: 180px;
+  }
+  /* Estilos del texto del producto */
+  .producto h3 {
+    margin-top: 10px;
+  }

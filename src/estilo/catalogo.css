@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Barlow-thick';
+  src: url('../font/BarlowCondensed-Black.ttf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Barlow-thin';
+  src: url('../font/Barlow-LightItalic.ttf');
+  font-style: normal;
+}
+
+.catalogo {
+  margin-top: 5%;
+}
+.grid-container {
+    font-family: 'Barlow-thin';
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    justify-items: center;
+    margin-top: 5%;
+  }
+  
+  .catalogo-titulo {
+    color: rgb(255, 255, 255);
+    font-family: 'Barlow-thick';
+    text-align: center;
+    font-size: 60px;
+  }
+  
+  
+  .carrito-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  .carrito-container a {
+    color: rgb(0, 0, 0);
+  }
+ 
